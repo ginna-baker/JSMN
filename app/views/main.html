@@ -1,23 +1,22 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>Jonathan Strange and Mr Norrell</h1>
+  <h3>A Character Guide</h3>
   <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
+    <img src="images/strangeNorrell.jpg" alt="Strange and Norrell gazing into a silver bowl"><br>
+    "Well, I suppose one ought not to employ a magician and then complain that he does not behave like other people."
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<div>
+    <div class="row" ng-repeat="character in characters">
+        <img src="{{character.imageUrl}}" class="mugshot" ng-click="selectCharacter(character)">
+        <h4>{{character.name}}</h4>
+        <p class="col-md-4 col-lg-4 col-sm-6">
+            {{character.blurb}}
+        </p>
+    </div>
+</div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+<div>
+    Illustrations by Portia Rosenberg.
 </div>
