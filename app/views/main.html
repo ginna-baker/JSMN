@@ -11,12 +11,10 @@
     <div class="row" >
         <jsmn-characters>
             <jsmn-character ng-repeat="character in characters" ng-click="selectCharacter()" ng-mouseenter="onMouseEnter()" ng-mouseleave="onMouseLeave()" class="col-md-4">
-                <img src="{{character.imageUrl}}" ng-class="{selected: mouseIn}" class="mugshot" ng-click="toggleCharacter(Norrell)">
+                <img src="{{character.imageUrl}}" ng-class="{selected: mouseIn}" class="mugshot" ng-click="toggleCharacter({{character}})">
                 <span class="center-label">{{character.name}}</span>
               </jsmn-character>
-<!--         <p class="col-md-4 col-lg-4 col-sm-6">
-            {{character.blurb}}
-        </p> -->
+            <description-box ng-show="activeChar" class="text-box">{{activeChar.blurb}}</description-box>
         </jsmn-characters>
     </div>
 </div>

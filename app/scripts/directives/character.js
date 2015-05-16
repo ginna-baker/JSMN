@@ -6,7 +6,6 @@ angular.module('jsmnApp')
       scope: false,
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        console.log(scope)
         scope.mouseIn = false;
 
         scope.onMouseEnter = function () {
