@@ -5,8 +5,8 @@ angular.module('jsmnApp')
         $scope.selectedCharacter = null;
         $scope.mouseEnter = false;
 
-        for (var description in descriptions) {
-            $scope.characters[description] = descriptions[description];
-        };
+        // for (var description in descriptions) {
+        //     $scope.characters[description] = descriptions[description];
+        // };
 
     });

@@ -57,16 +57,31 @@ body {
   color: #2b1d0e;
 }
 
-/* Supporting marketing content */
+/* mugshot tiles */
 .mugshot {
     border-radius: 100px;
     border-color: #ECC8EC;
     border-width: 15px;
     border-style: solid;
+    box-sizing: border-box;
+
+    &:hover {
+        box-shadow:
+            0 1px 10px 3px transparentize(#d3d3d3, 0.1),
+            1px 0 10px 3px transparentize(#d3d3d3, 0.1);
+        transform: translate3d(0, -4px, 0);
+    }
 }
 
 .selected {
     border-color: #fff;
+}
+
+.center-label {
+    text-align: center;
+    width: 243.3px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* Responsive: Portrait tablets and up */

@@ -1,10 +1,12 @@
 'use strict';
 angular.module('jsmnApp')
-  .directive('mrNorrell', function (descriptions) {
+  .directive('jsmnCharacter', function (descriptions) {
     return {
+      // require: ['jsmnCharacters'], REVISIT
+      scope: false,
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        scope.character = descriptions['Norrell']
+        console.log(scope)
         scope.mouseIn = false;
 
         scope.onMouseEnter = function () {
