@@ -3,7 +3,7 @@ angular.module('jsmnApp')
         Norrell: {
             name: 'Gilbert Norrell',
             blurb: 'An elderly man of good heritage, he owns lands near the city of York, including his signature home of Hurtfew Abbey. With the objective of bringing back magic to England, Norrell impresses the Learned Society of York Magicians with a display of practical magic, which was thought to have been extinct for centuries, and sets off for London in order to use magic in the Napoleonic Wars in order to set up magic as a respected profession once again. Somewhat miserly of magic, he loathes "theoretical" magicians, or magio-historians, considering them to be second or third rate scholars. He is small, old-fashioned, wears an old fashioned wig, and has habits akin to those of a man who spends the larger part of his time alone.',
-            imageUrl: 'images/Norrell.gif'
+            imageUrl: 'images/Norrell.jpg'
         },
         Strange: {
             name: 'Jonathan Strange',
@@ -17,7 +17,7 @@ angular.module('jsmnApp')
         },
         Stephen: {
             name: 'Stephen Black',
-            blurb: 'The Negro Butler of Sir Walter Pole. Intelligent and very handsome, he becomes the subject of the Gentleman with the Thistledown Hair\'s friendly attentions, and is usually seen attempting to placate some new wrath or insult the Gentleman perceives. Each and every night, he is summoned to Lost Hope, the Gentleman\'s Faerie Kingdom, to dance at the nightly balls and take part in the Faerie\'s enumerable parades and parties. He is the "Nameless Slave", one of the subjects of Vinculus\' prophecy. ',
+            blurb: 'The Negro Butler of Sir Walter Pole. Intelligent and very handsome, he becomes the subject of the Gentleman with the Thistledown Hair\'s friendly attentions, and is usually seen attempting to placate some new wrath or insult the Gentleman perceives. Each and every night, he is summoned to Lost Hope, the Gentleman\'s Faerie Kingdom, to dance at the nightly balls and take part in the Faeries enumerable parades and parties. He is the "Nameless Slave", one of the subjects of Vinculus prophecy. ',
             imageUrl: 'images/Stephen.jpg'
         }
    });
