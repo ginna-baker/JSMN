@@ -14,7 +14,11 @@
                 <img src="{{character.imageUrl}}" ng-class="{selected: mouseIn}" ng-mouseenter="onMouseEnter()" ng-mouseleave="onMouseLeave()" class="mugshot" ng-click="toggleCharacter({{character}})">
                 <span class="center-label">{{character.name}}</span>
               </jsmn-character>
-            <description-box ng-show="activeChar" ng-hide="!activeChar" class="text-box">{{activeChar.blurb}}</description-box>
+            <description-box ng-show="activeChar" ng-hide="!activeChar" class="text-box">
+                <img src="{{activeChar.imageUrl}}">
+                <h3>{{activeChar.name}}</h3>
+                {{activeChar.blurb}}
+            </description-box>
         </jsmn-characters>
     </div>
 </div>

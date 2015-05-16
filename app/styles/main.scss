@@ -64,7 +64,8 @@ body {
     border-width: 7px;
     border-style: solid;
     box-sizing: border-box;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     &:hover {
         box-shadow:
@@ -84,8 +85,26 @@ body {
     width: 243.3px;
     font-weight: bold;
     font-size: 24px;
-    position: fixed;
+    // position: fixed;
     z-index: 100;
+    margin-bottom: 30px;
+}
+
+.text-box {
+    margin-left: -1050px;
+    margin-top: 300px;
+    position: absolute;
+    background-color: #d3d3d3;
+    opacity: 0.8;
+    color: #2b1d0e;
+    padding: 10px;
+    max-width: 300px;
+    img {
+        max-width: 100px;
+        border-style: solid;
+        border-color: #ECC8EC;
+        border-width: 3px;
+    }
 }
 
 /* Responsive: Portrait tablets and up */
