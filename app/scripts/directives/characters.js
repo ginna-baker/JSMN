@@ -5,7 +5,7 @@ angular.module('jsmnApp')
     return {
       restrict: 'E',
       controller: function($element, $rootScope, $scope) {
-          $scope._ = _
+          // $scope._ = _
           console.log('controller here')
           return
       },

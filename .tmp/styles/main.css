@@ -8563,36 +8563,40 @@ body {
   border-width: 7px;
   border-style: solid;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
-/* line 68, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 .mugshot:hover {
   box-shadow: 0 1px 10px 3px rgba(211, 211, 211, 0.9), 1px 0 10px 3px rgba(211, 211, 211, 0.9);
   -webkit-transform: translate3d(0, -4px, 0);
           transform: translate3d(0, -4px, 0);
 }
 
-/* line 76, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 .selected {
   border-color: #fff;
 }
 
-/* line 80, ../../app/styles/main.scss */
+/* line 81, ../../app/styles/main.scss */
 .center-label {
+  margin: 0 auto;
   text-align: center;
   width: 243.3px;
   font-weight: bold;
   font-size: 24px;
+  position: fixed;
+  z-index: 100;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 89, ../../app/styles/main.scss */
+  /* line 93, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 94, ../../app/styles/main.scss */
+  /* line 98, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8601,13 +8605,13 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 101, ../../app/styles/main.scss */
+  /* line 105, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 105, ../../app/styles/main.scss */
+  /* line 109, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }

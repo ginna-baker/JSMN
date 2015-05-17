@@ -14,6 +14,7 @@ angular.module('jsmnApp')
         }
         scope.onMouseLeave = function () {
             scope.mouseIn = false;
+            scope.activeChar = null;
             return;
         }
       }

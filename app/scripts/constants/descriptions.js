@@ -34,5 +34,10 @@ angular.module('jsmnApp')
             name: 'John Childermass',
             blurb: 'The long-time "man of business" of Mr. Norrell. Technically Mr. Norrell\'s employed servant, Childermass is a clever man who knows the world, and is entrusted with Mr. Norrell\'s most confidential and important business. He knows some magic, is in his own right a magician, and has a northerners patriotic devotion to the Raven King. \n Cunning and having an independent streak, Childermass often takes matters into his own hands, which often puts him at odds with Mr. Lascelles, who views him as impertinent.',
             imageUrl: 'images/Childermass.jpg'
+        },
+        Uskglass: {
+            name: 'John Uskglass',
+            blurb: 'The Raven King. A mysterious figure in English magical history, the Raven King was raised in Faerie, and led a successful invasion of Northern England against King Henry I with an army known as the Daoine Sidhe (pronounced Deenie Shee), or "The Faerie Host/[Army]". He established the system of magic that magicians use in England, and ruled Northern England for 300 years before disappearing into Faerie for unknown reasons with all of his long-lived servants and statesmen. He remains a powerful and mysterious figure in magical history, and is revered by Strange, while reviled by Norrell. He had three Kingdoms: Northern England, an unknown Faerie Kingdom, and Agrace, which is supposedly on the far side of Hell.',
+            imageUrl: 'images/Uskglass.jpg'
         }
    });
