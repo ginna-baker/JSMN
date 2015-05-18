@@ -9,7 +9,7 @@
 
 <div>
     <div class="row" >
-        <div class="col-md-4" ng-repeat="character in characters" ng-mouseenter="character.onMouseEnter()" ng-mouseleave="character.onMouseLeave()">
+        <div class="col-md-4" ng-repeat="character in characters">
             <img src="{{character.imageUrl}}" class="mugshot" ng-click="selectCharacter(character)">
             <h4>{{character.name}}</h4>
 <!--         <p class="col-md-4 col-lg-4 col-sm-6">
@@ -18,3 +18,6 @@
         </div>
     </div>
 </div>
+<mr-norrell ng-click="selectCharacter()" ng-mouseenter="onMouseEnter()" ng-mouseleave="onMouseLeave()">
+    <img src="{{character.imageUrl}}" ng-class="{selected: mouseIn}" class="mugshot">
+    {{character.name}}</mr-norrell>
