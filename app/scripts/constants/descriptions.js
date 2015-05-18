@@ -19,5 +19,20 @@ angular.module('jsmnApp')
             name: 'Stephen Black',
             blurb: 'The Negro Butler of Sir Walter Pole. Intelligent and very handsome, he becomes the subject of the Gentleman with the Thistledown Hair\'s friendly attentions, and is usually seen attempting to placate some new wrath or insult the Gentleman perceives. Each and every night, he is summoned to Lost Hope, the Gentleman\'s Faerie Kingdom, to dance at the nightly balls and take part in the Faeries enumerable parades and parties. He is the "Nameless Slave", one of the subjects of Vinculus prophecy. ',
             imageUrl: 'images/Stephen.jpg'
+        },
+        Thistledown: {
+            name: 'The Gentleman with the Thistledown Hair',
+            blurb: 'A faerie spirit, the king of a great many Faerie kingdoms and primary antagonist of the book. The Gentleman takes a personal interest in Steven Black, and wishes to strengthen their friendship by making him the King of England. Whimsical and almost childlike in nature, the Gentleman is prone to seeing invisible insults and flying into malicious rages. Like most of his race, by human standards he is barely sane, and has a very twisted sense of morality, though by his own account he is usually the one sinned against in most situations. ',
+            imageUrl: 'images/Thistle.jpg'
+        },
+        Vinculus: {
+            name: 'Vinculus',
+            blurb: 'A vagabond street magician from London, often known as "The Magician of Threadneedle Street" by virtue of where he sets up his booth. He bears the prophecy  that is told to Jonathan Strange, Mr. Norrel, and Steven Black, and which makes him a very important yet mysterious figure within the book.',
+            imageUrl: 'images/Vinculus.jpg'
+        },
+        Childermass: {
+            name: 'John Childermass',
+            blurb: 'The long-time "man of business" of Mr. Norrell. Technically Mr. Norrell\'s employed servant, Childermass is a clever man who knows the world, and is entrusted with Mr. Norrell\'s most confidential and important business. He knows some magic, is in his own right a magician, and has a northerners patriotic devotion to the Raven King. \n Cunning and having an independent streak, Childermass often takes matters into his own hands, which often puts him at odds with Mr. Lascelles, who views him as impertinent.',
+            imageUrl: 'images/Childermass.jpg'
         }
    });

@@ -1,22 +1,20 @@
 <div class="jumbotron">
   <img src="images/JSMN_logo_only.png" alt="Jonathan Strange and Mr Norrell">
   <h3>Character Guide</h3>
-  <p class="lead">
+<!--   <p class="lead">
     <img src="images/strangeNorrell.jpg" alt="Strange and Norrell gazing into a silver bowl"><br>
     "Well, I suppose one ought not to employ a magician and then complain that he does not behave like other people."
-  </p>
+  </p> -->
 </div>
 
 <div>
-    <div class="row" ng-repeat="character in characters">
-        <img src="{{character.imageUrl}}" class="mugshot" ng-click="selectCharacter(character)">
-        <h4>{{character.name}}</h4>
+    <div class="row" >
+        <div class="col-md-4" ng-repeat="character in characters" ng-mouseenter="character.onMouseEnter()" ng-mouseleave="character.onMouseLeave()">
+            <img src="{{character.imageUrl}}" class="mugshot" ng-click="selectCharacter(character)">
+            <h4>{{character.name}}</h4>
 <!--         <p class="col-md-4 col-lg-4 col-sm-6">
             {{character.blurb}}
         </p> -->
+        </div>
     </div>
-</div>
-
-<div>
-    Illustrations by Portia Rosenberg.
 </div>
