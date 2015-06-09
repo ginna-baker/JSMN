@@ -8589,7 +8589,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 93, ../../app/styles/main.scss */
+/* line 92, ../../app/styles/main.scss */
 .text-box {
   margin-left: -1050px;
   margin-top: 300px;
@@ -8600,7 +8600,7 @@ body {
   padding: 10px;
   max-width: 300px;
 }
-/* line 102, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/main.scss */
 .text-box img {
   max-width: 100px;
   border-style: solid;
@@ -8610,13 +8610,13 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 112, ../../app/styles/main.scss */
+  /* line 111, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 117, ../../app/styles/main.scss */
+  /* line 116, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8625,14 +8625,16 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 124, ../../app/styles/main.scss */
+  /* line 123, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 128, ../../app/styles/main.scss */
+  /* line 127, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
