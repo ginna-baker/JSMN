@@ -8,16 +8,16 @@
 </div>
 
 <div>
-    <div class="row" >
+    <div class="row">
         <jsmn-characters>
             <jsmn-character ng-repeat="character in characters" class="col-md-4">
-                <img src="{{character.imageUrl}}" ng-class="{selected: mouseIn}" ng-mouseenter="onMouseEnter()" ng-mouseleave="onMouseLeave()" class="mugshot" ng-click="toggleCharacter({{character}})">
+                <img src="{{character.imageUrl}}" ng-class="{'selected': mouseIn}" ng-mouseenter="onMouseEnter()" ng-mouseleave="onMouseLeave()" class="mugshot" ng-click="toggleCharacter(character)">
                 <span class="center-label">{{character.name}}</span>
               </jsmn-character>
             <description-box ng-show="activeChar" ng-hide="!activeChar" class="text-box">
                 <img src="{{activeChar.imageUrl}}">
                 <h3>{{activeChar.name}}</h3>
-                {{activeChar.blurb}}
+                <div>{{activeChar.blurb}}</div>
             </description-box>
         </jsmn-characters>
     </div>

@@ -12,7 +12,7 @@ angular.module('jsmnApp')
         },
         Arabella: {
             name: 'Arabella Strange',
-            blurb: '(nee Woodhope): Wife of Jonathan Strange, and sister to Henry Woodhope. Strong willed and patient, Arabella Strange and her husband are known to often lightly quarrel, though they sincerely love each other.',
+            blurb: 'Wife of Jonathan Strange and sister to Henry Woodhope. Arabella ',
             imageUrl: 'images/Arabella.jpg'
         },
         Stephen: {
@@ -32,7 +32,7 @@ angular.module('jsmnApp')
         },
         Childermas: {
             name: 'John Childermas',
-            blurb: 'A servant and long-time "man of business" of Mr. Norrell, who is entrusted with Mr. Norrell\'s most confidential and important business. A character of some mystery, Childermas is a magician in his own right.',
+            blurb: 'A servant and trusted advisor to Mr. Norrell, who carries out his most confidential and important business. A character of some mystery, Childermas is a magician in his own right.',
             imageUrl: 'images/Childermas.jpg'
         },
         Uskglass: {
@@ -44,5 +44,20 @@ angular.module('jsmnApp')
             name: 'King George I',
             blurb: 'King of England: rumored to be mad, but possibly only enchanted.',
             imageUrl: 'images/George.jpg'
+        },
+        Pole: {
+            name: 'Sir Walter Pole',
+            blurb: 'Member of the House of Lords and an early political advocate for English magic.',
+            imageUrl: 'images/man_silhouette.jpg'
+        },
+        Wintertowne: {
+            name: 'Lady Emma Pole',
+            blurb: 'Her impending death was the impetus for Mr Norrell to make a deal with the Gentleman with the Thistledown Hair.  The bargain allowed Lady Pole to recover, but doomed her to a morbid and frightening enchantment of which she could never speak.',
+            imageUrl: 'images/lady_silhouette.png'
+        },
+        Segundus: {
+            name: 'John Segundus',
+            blurb: 'Member of the York Society of Magicians, Mr Segundus is one of two gentlemen who travel to meet Mr Norrell out of curiosity to meet a practical magician. Segundus goes on to play his own part in the rise of English magic.',
+            imageUrl: 'images/man_silhouette.jpg'
         }
    });

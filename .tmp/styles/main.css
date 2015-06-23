@@ -8558,6 +8558,7 @@ body {
 /* mugshot tiles */
 /* line 61, ../../app/styles/main.scss */
 .mugshot {
+  background-color: white;
   border-radius: 100px;
   border-color: #ECC8EC;
   border-width: 7px;
@@ -8566,19 +8567,19 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 70, ../../app/styles/main.scss */
+/* line 71, ../../app/styles/main.scss */
 .mugshot:hover {
   box-shadow: 0 1px 10px 3px rgba(211, 211, 211, 0.9), 1px 0 10px 3px rgba(211, 211, 211, 0.9);
   -webkit-transform: translate3d(0, -4px, 0);
           transform: translate3d(0, -4px, 0);
 }
 
-/* line 78, ../../app/styles/main.scss */
+/* line 79, ../../app/styles/main.scss */
 .selected {
   border-color: #fff;
 }
 
-/* line 82, ../../app/styles/main.scss */
+/* line 83, ../../app/styles/main.scss */
 .center-label {
   margin: 0 auto;
   text-align: center;
@@ -8589,7 +8590,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 92, ../../app/styles/main.scss */
+/* line 93, ../../app/styles/main.scss */
 .text-box {
   margin-left: -1050px;
   margin-top: 300px;
@@ -8600,7 +8601,7 @@ body {
   padding: 10px;
   max-width: 300px;
 }
-/* line 101, ../../app/styles/main.scss */
+/* line 102, ../../app/styles/main.scss */
 .text-box img {
   max-width: 100px;
   border-style: solid;
@@ -8610,13 +8611,13 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 111, ../../app/styles/main.scss */
+  /* line 112, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 116, ../../app/styles/main.scss */
+  /* line 117, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8625,16 +8626,14 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 123, ../../app/styles/main.scss */
+  /* line 124, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 127, ../../app/styles/main.scss */
+  /* line 128, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
