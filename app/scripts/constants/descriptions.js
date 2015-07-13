@@ -12,7 +12,7 @@ angular.module('jsmnApp')
         },
         Arabella: {
             name: 'Arabella Strange',
-            blurb: 'Wife of Jonathan Strange and sister to Henry Woodhope. Arabella ',
+            blurb: 'Wife of Jonathan Strange and sister to Henry Woodhope. Through no fault of her own, Arabella finds herself caught in the middle of the battle between the English magicians and the Gentleman with the Thistledown Hair.',
             imageUrl: 'images/Arabella.jpg'
         },
         Stephen: {

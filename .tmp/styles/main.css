@@ -8558,6 +8558,8 @@ body {
 /* mugshot tiles */
 /* line 61, ../../app/styles/main.scss */
 .mugshot {
+  max-height: 60%;
+  max-width: 60%;
   background-color: white;
   border-radius: 100px;
   border-color: #ECC8EC;
@@ -8567,43 +8569,45 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 71, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 .mugshot:hover {
   box-shadow: 0 1px 10px 3px rgba(211, 211, 211, 0.9), 1px 0 10px 3px rgba(211, 211, 211, 0.9);
   -webkit-transform: translate3d(0, -4px, 0);
           transform: translate3d(0, -4px, 0);
 }
 
-/* line 79, ../../app/styles/main.scss */
+/* line 81, ../../app/styles/main.scss */
 .selected {
   border-color: #fff;
 }
 
-/* line 83, ../../app/styles/main.scss */
+/* line 85, ../../app/styles/main.scss */
 .center-label {
   margin: 0 auto;
   text-align: center;
   width: 243.3px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
   z-index: 100;
   margin-bottom: 30px;
 }
 
-/* line 93, ../../app/styles/main.scss */
+/* line 95, ../../app/styles/main.scss */
 .text-box {
-  margin-left: -1050px;
+  margin-left: -550px;
   margin-top: 300px;
   position: absolute;
   background-color: #d3d3d3;
-  opacity: 0.8;
+  opacity: 0.95;
   color: #2b1d0e;
   padding: 10px;
-  max-width: 300px;
+  max-width: 500px;
 }
-/* line 102, ../../app/styles/main.scss */
+/* line 104, ../../app/styles/main.scss */
 .text-box img {
-  max-width: 100px;
+  margin-left: 150px;
+  position: relative;
+  max-width: 200px;
   border-style: solid;
   border-color: #ECC8EC;
   border-width: 3px;
@@ -8611,13 +8615,13 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 112, ../../app/styles/main.scss */
+  /* line 116, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 117, ../../app/styles/main.scss */
+  /* line 121, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8626,16 +8630,14 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 124, ../../app/styles/main.scss */
+  /* line 128, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 128, ../../app/styles/main.scss */
+  /* line 132, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
